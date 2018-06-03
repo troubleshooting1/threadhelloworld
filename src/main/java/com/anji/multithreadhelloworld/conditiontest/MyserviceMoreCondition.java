@@ -1,4 +1,4 @@
-package com.anji.multithreadhelloworld.ConditionTest;
+package com.anji.multithreadhelloworld.conditiontest;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

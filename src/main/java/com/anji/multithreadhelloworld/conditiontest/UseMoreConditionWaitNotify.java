@@ -1,4 +1,4 @@
-package com.anji.multithreadhelloworld.ConditionTest;
+package com.anji.multithreadhelloworld.conditiontest;
 
 /**
  * Description:
@@ -19,7 +19,7 @@ public class UseMoreConditionWaitNotify {
         Thread.sleep(3000);
 
         service.signalAll_A();
-        service.signalAll_B();
+//        service.signalAll_B();
     }
 
     static public class ThreadA extends Thread {
